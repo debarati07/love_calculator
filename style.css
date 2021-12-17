@@ -1,0 +1,134 @@
+body {
+  background: url("https://us.123rf.com/450wm/rawpixel/rawpixel1902/rawpixel190200005/116525459-valentines-day-card-vector-design-with-copy-space.jpg?ver=6");
+  height: 100vh;
+  width: 100%;
+  backdrop-filter: blur(4px);
+}
+.heading {
+  font-family: "PT Serif", serif;
+  font-size: 5rem;
+  color: azure;
+  text-shadow: 3px 3px #ec255a;
+}
+.upper {
+  text-align: center;
+  margin-top: 60px;
+}
+#title {
+  font-size: 4rem;
+  color: #b91646;
+  font-weight: bold;
+  font-family: "Shalimar", cursive;
+  text-shadow: 2px 2px azure;
+  word-spacing: 5px;
+  width: 800px;
+  margin: auto;
+}
+.middle {
+  text-align: center;
+  padding: 50px;
+  font-size: 1.5rem;
+  font-family: "PT Serif", serif;
+  color: #b91646;
+  text-shadow: 1px 1px azure;
+  font-weight: bolder;
+}
+.bottom {
+  text-align: center;
+}
+[type="text"] {
+  font-size: 1.5rem;
+  border: 2px #ec255a;
+  box-shadow: 5px 5px grey;
+}
+.btn {
+  background: cornsilk;
+  color: #ec255a;
+  box-shadow: 3px 3px grey;
+}
+/*javascript css*/
+.show {
+  visibility: hidden;
+}
+.score {
+  text-align: center;
+  font-size: 3rem;
+  color: #b91646;
+  text-shadow: 1px 1px azure;
+}
+.analysis {
+  margin: auto;
+  font-size: 2rem;
+  color: azure;
+  padding: 3px 25px 3px 25px;
+  line-height: 1.2;
+  width: 700px;
+  text-shadow: 3px 3px #ec255a;
+  font-weight: bold;
+  text-align: center;
+  border: 3px dotted white;
+}
+/*Media Query*/
+@media screen and (max-width: 400px) {
+  .heading {
+    font-size: 3rem;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #title {
+    width: 100%;
+    padding: 3px;
+    line-height: 1;
+    font-size: 3rem;
+    margin-bottom: 3px;
+  }
+  [type="text"] {
+    margin-bottom: 15px;
+    text-align: center;
+    width: 150px;
+    padding: 3%;
+    font-size: 15px;
+  }
+  .analysis {
+    width: 100%;
+    line-height: 1.2;
+    font-size: 2rem;
+    text-shadow: none;
+    border: none;
+    text-align: left;
+  }
+  .score {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 770px) {
+  [type="text"] {
+    margin-bottom: 15px;
+    text-align: center;
+    width: 150px;
+    padding: 3%;
+    font-size: 20px;
+  }
+  #title {
+    width: 100%;
+    padding: 3px;
+    line-height: 1;
+    font-size: 3rem;
+    margin-bottom: 3px;
+  }
+  .analysis {
+    width: 100%;
+    line-height: 1.2;
+    font-size: 2rem;
+    text-shadow: none;
+    border: none;
+    text-align: center;
+  }
+  .score {
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 10px;
+  }
+}
